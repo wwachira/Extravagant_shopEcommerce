@@ -35,4 +35,4 @@ app.use(cookieParser());
 app.use(express.json());
 
 
-app.listen(PORT, ()=> console.log(`Server is running on port $ {PORT}`)) //BASIC server config
+app.listen(PORT, ()=> console.log(`Server is running on port ${PORT}`)) //BASIC server config
