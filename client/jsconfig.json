@@ -1,0 +1,23 @@
+{
+    "$schema": "./jsconfig-schema.json",    
+    "compilerOptions": {
+      "baseUrl": ".",
+        "paths": {
+          "@/*": ["./src/*"]
+        }
+      }
+}
+// {
+  
+//   "compilerOptions": {
+//     "$schema": "./client/jsconfig-schema.json",
+//     "target": "es6",
+//     "module": "commonjs"
+//   },
+//   "include": [
+//     "src/**/*"
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+// }
