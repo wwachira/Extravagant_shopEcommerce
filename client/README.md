@@ -11,6 +11,7 @@ https://ui.shadcn.com/docs/installation/vite
 - npx tailwindcss init -p  //creates a tailwind config file
 - npx shadcn@latest init //to install shadcn
 - npm i tailwindcss-animate
+- npm i -D @types/node //so your app can resolve paths without error
 
 # start functionality
 - main.jsx

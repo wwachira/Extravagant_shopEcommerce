@@ -1,16 +1,19 @@
-{
-    "$schema": "./jsconfig-schema.json",    
-    "compilerOptions": {
-      "baseUrl": ".",
-        "paths": {
-          "@/*": ["./src/*"]
-        }
-      }
-}
+// {
+//     "$schema": "./jsconfig-schema.json",    
+//     "compilerOptions": {
+//       "target": "es6",
+//     "module": "commonjs",
+//     "jsx": "react", // or "react-jsx" for React 17+
+//       "baseUrl": ".",
+//         "paths": {
+//           "@/*": ["./src/*"]
+//         }
+//       }
+// }
 // {
   
 //   "compilerOptions": {
-//     "$schema": "./client/jsconfig-schema.json",
+//     
 //     "target": "es6",
 //     "module": "commonjs"
 //   },
@@ -21,3 +24,15 @@
 //     "node_modules"
 //   ]
 // }
+{
+  "$schema": "./jsconfig-schema.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react-jsx", // Use "react-jsx" for React 17+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

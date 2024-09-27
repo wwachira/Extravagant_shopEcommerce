@@ -24,5 +24,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore the local jsconfig schema
-jsconfig-schema.json
+# # Ignore the local jsconfig schema
+# jsconfig-schema.json
